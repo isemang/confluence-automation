@@ -1,0 +1,23 @@
+{
+  "name": "confluence-daily-checker",
+  "version": "1.0.0",
+  "description": "한국거래소 영업일 기준으로 컨플루언스 일일점검 페이지를 자동 생성하고 Slack 알림을 보내는 시스템",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.3.1",
+    "moment-timezone": "^0.5.43"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
